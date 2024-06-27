@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:orgg_widget_app/config/menu/menu_item.dart';
 import 'package:orgg_widget_app/presentacion/screens/buttons/button_screen.dart';
 
@@ -51,9 +52,7 @@ class _CustomTile extends StatelessWidget {
       subtitle: Text(menuItem.subTitle),
       trailing: Icon(Icons.arrow_forward_ios_outlined, color: color.primary,),
       onTap: () { 
-        Navigator.of(context).push(
-          MaterialPageRoute(builder: (context) => const ButtonScreen(),)
-        );
+        context.push(menuItem.link);
       },
     );
   }
