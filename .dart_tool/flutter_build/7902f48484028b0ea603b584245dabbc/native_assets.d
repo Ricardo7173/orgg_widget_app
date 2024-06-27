@@ -1,0 +1,1 @@
+ C:\\Users\\CGTI-UTNG\\Downloads\\orgg_widget_app\\.dart_tool\\flutter_build\\7902f48484028b0ea603b584245dabbc\\native_assets.yaml: 
