@@ -38,35 +38,35 @@ const appMenuItems = <MenuItem>[
   ),
 
   MenuItem(
-    title: 'Progress Indicators',
-    subTitle: 'Progresos generales y controlados',
+    title: 'Snackbasr y diálogos',
+    subTitle: 'Indicadores de pantalla',
+    link: '/snackbar',
+    icon: Icons.message_outlined
+  ),
+
+  MenuItem(
+    title: '',
+    subTitle: '',
     link: '/progress',
     icon: Icons.refresh_outlined
   ),
 
   MenuItem(
-    title: 'Progress Indicators',
-    subTitle: 'Progresos generales y controlados',
+    title: ' ',
+    subTitle: '   ',
     link: '/progress',
     icon: Icons.refresh_outlined
   ),
 
   MenuItem(
-    title: 'Progress Indicators',
-    subTitle: 'Progresos generales y controlados',
+    title: ' ',
+    subTitle: '   ',
     link: '/progress',
     icon: Icons.refresh_outlined
   ),
 
   MenuItem(
-    title: 'Progress Indicators',
-    subTitle: 'Progresos generales y controlados',
-    link: '/progress',
-    icon: Icons.refresh_outlined
-  ),
-
-  MenuItem(
-    title: 'Progress Indicators',
+    title: ' ',
     subTitle: 'Progresos generales y controlados',
     link: '/progress',
     icon: Icons.refresh_outlined
